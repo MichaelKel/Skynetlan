@@ -1,0 +1,15 @@
+{% extends '::layout.html.twig' %}
+
+{% block title %} {{ 'post.plural' | trans }} {% endblock %}
+
+{% block section %}
+<h1>Новости</h1>
+    {% for post in posts %}
+        {#<p>{{ post.title }}</p>#}
+        {#{{ post.body }}#}
+        {#{{ dump(post) }}#}
+        {#<p>Автор: {{ post.author.name }}</p>#}
+        {#Дата публикации: {{ post.createdAt | date }}#}
+        {{ include ('CoreBundle:Post:_post.html.twig', { post :post }) }}
+{% endfor %}
+{% endblock %}

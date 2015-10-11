@@ -1,0 +1,55 @@
+body {
+height: 2000px;
+}
+.container-fluid .src{
+    width: 100%;
+    height: 300px;
+}
+
+.transparent {
+    background: #aaa;
+    opacity: 0.8;   
+}
+
+.margining {
+    margin-top: 2%;
+}
+
+
+.navigate-bar-button {
+    margin-left: 8%;
+    height: 128px;
+    width: 84%; /*ширина всего блока с меню*/
+}
+
+.navigate-bar-button a img,
+.navigate-bar-button a {
+    display: block;
+    float: left;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    height: 70px;
+    width: 70px;
+}
+
+.navigate-bar-button a {
+    margin: 15px 25px 15px 15px;
+    text-align: center;
+    color: #333;
+    font: italic normal 12px Verdana;
+    text-decoration: none;
+    word-wrap: normal; /*запрещает автоматически разрывать слова на перенос*/
+}
+.navigate-bar-button a:hover img {
+    margin-left: -30%; /*смещает картинку левее, выравнивая ее по центру*/
+    height: 128px;
+    width: 128px;
+}
+.navigate-bar-button a:hover {
+    font: normal bold 16px Verdana;
+    text-decoration: none;
+    color: #333;
+    height: 128px;
+}

@@ -1,0 +1,24 @@
+homepage:
+    resource: "@HomepageBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+about:
+    resource: "@AboutBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+bootstrap:
+    resource: "@BootstrapBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+core:
+    resource: "@CoreBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+news:
+    resource: "@NewsBundle/Controller/"
+    type:     annotation
+    prefix:   /news

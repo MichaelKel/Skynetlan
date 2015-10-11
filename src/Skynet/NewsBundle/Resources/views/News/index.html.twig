@@ -1,0 +1,11 @@
+{% extends '::layout.html.twig' %}
+
+{% block body %}
+    {{ parent() }}
+{% endblock %}
+    {% block articles %}
+        <article>
+            Hello {{ name }}! This is good news!
+    </article>
+    {% endblock %}
+
