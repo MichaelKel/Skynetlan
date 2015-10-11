@@ -21,4 +21,4 @@ core:
 news:
     resource: "@NewsBundle/Controller/"
     type:     annotation
-    prefix:   /news
+    prefix:   /
